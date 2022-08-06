@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 :root{
     --blanco: #ffffff;
     --oscuro: #212121;
@@ -14,13 +18,13 @@ html{
 }
 
 /*Scrollsnap*/
-.servicios,
+/* .servicios,
 .navegacion-principal,
 .formulario{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 
-}
+} */
 
 *, *:before, *:after {          /*https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
     box-sizing: inherit;
@@ -228,6 +232,7 @@ h1, h2, h3{
 
 .formulario {
     background-color: var(--terciario);
+    padding: 1rem;
     width: min(60rem, 100%); /*Utiliza el valor mas pequeno*/
     margin: 0 auto; /*Se utiliza cuando tenemos un elemento cuyo padre no sea flex asi centramos  ya que es un elemento tipo block*/
     border-radius: .5rem;
